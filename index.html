@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<canvas id="hubCanvas"></canvas>
+<div id="howToPlayWindow"><img src="./img/how_to_play_web.svg" id="howToPlayPic"></div>
+
+
+
+
+
+
+<!-- ПАКМАН -->
+<div id="pacmanDiv">
+<p id="p1"> 
+    <span>Score: </span> <span id="scoreEl">0</span>
+</p>
+
+<div id="backToMenu" onclick="closePackman()">
+    <img src="./imgPacman/closeGame.svg" id="backToMenuPic">
+</div>
+
+<canvas id="packmanCanvas"></canvas>
+
+<div id="studyScreen">
+    <img src="./imgPacman/how.svg" id="studyScreenForPacman">
+    <div id="close2"><img src="./imgPacman/close.png" id="but"></div>
+</div>
+
+<div id="endScreen">
+    <img src="./imgPacman/dead.svg" id="deadForPacman">
+    <div id="close"><img src="./imgPacman/close.png" id="but"></div>
+</div>
+
+<div id="anotherDevice"><img src="./imgPacman/anDevice.svg" id="anDeviceB"></div>
+</div>
+    
+
+
+
+
+
+
+
+
+<!-- КОРАБЛЬ -->
+<div id="spaceDiv">
+<p id="p2">
+    <span>Score:</span> <span id="scoreEl">0</span>
+</p>
+
+<canvas id="spaceCanvas"></canvas>
+
+<div id="studyScreenSpace">
+    <img src="./imgSpace/howTo.svg" id="studyScreenForShip">
+    <!-- <div id="close3"><img src="./img/close3.svg" id="but"></div> -->
+</div>
+
+<div id="endScreenSpace">
+    <img src="./imgSpace/deadinspace.svg" id="deadForShip">
+    <div id="close3"><img src="./imgSpace/close3.svg" id="but"></div>
+</div>
+
+<div id="backToMenueSpace"><img src="./imgSpace/closeSpcaeB.svg" id="closeSpcaeB"></div>
+
+<div id="anotherDevice3"><img src="./imgSpace/anDevice3.svg" id="anDeviceB3"></div>
+</div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
